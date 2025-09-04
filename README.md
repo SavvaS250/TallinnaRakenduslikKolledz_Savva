@@ -1,0 +1,2 @@
+# TallinnaRakenduslikKolledz_Savva
+Savva Sminyagin
