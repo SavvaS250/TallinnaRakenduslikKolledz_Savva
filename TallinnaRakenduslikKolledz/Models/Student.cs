@@ -10,9 +10,10 @@ namespace TallinnaRakenduslikKolledz.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime EnrollmentDate { get; set; }
+        public ICollection<Enrollment>? Enrollments { get; set; }
 
-        public int Phone {  get; set; }
-        public string Gender { get; set; }
+        public int? Phone {  get; set; }
+        public string? Gender { get; set; }
         public string Email { get; set; }
     }
 }
