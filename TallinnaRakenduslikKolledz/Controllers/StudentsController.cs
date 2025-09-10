@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client;
 using TallinnaRakenduslikKolledz.Data;
 using TallinnaRakenduslikKolledz.Models;
 
@@ -13,9 +14,11 @@ namespace TallinnaRakenduslikKolledz.Controllers
         {
             _context = context;
         }
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Students.ToListAsync());
+            var listthings = await _context.Students.ToListAsync();
+            return View(listthings);
         }
         [HttpGet]
         public IActionResult Create()
@@ -33,6 +36,30 @@ namespace TallinnaRakenduslikKolledz.Controllers
                 return RedirectToAction("Index");
             }
             return View(student);
+        }
+        [HttpGet]
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var student = await _context.Students.FirstOrDefaultAsync(m => m.Id == id);
+            if (student == null)
+            {
+                return NotFound();
+            }
+            return View(student);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var student = await _context.Students.FindAsync(id);
+            _context.Students.Remove(student);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Index");
         }
     }
 }
