@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|c:\\users\\opilane\\source\\repos\\tallinnarakenduslikkolledz_savva\\tallinnarakenduslikkolledz\\views\\instructors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|solutionrelative:tallinnarakenduslikkolledz\\views\\instructors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|c:\\users\\opilane\\source\\repos\\tallinnarakenduslikkolledz_savva\\tallinnarakenduslikkolledz\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|solutionrelative:tallinnarakenduslikkolledz\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|c:\\users\\opilane\\source\\repos\\tallinnarakenduslikkolledz_savva\\tallinnarakenduslikkolledz\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|solutionrelative:tallinnarakenduslikkolledz\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|c:\\users\\opilane\\source\\repos\\tallinnarakenduslikkolledz_savva\\tallinnarakenduslikkolledz\\models\\instructorindexdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|solutionrelative:tallinnarakenduslikkolledz\\models\\instructorindexdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|c:\\users\\opilane\\source\\repos\\tallinnarakenduslikkolledz_savva\\tallinnarakenduslikkolledz\\models\\courseassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|solutionrelative:tallinnarakenduslikkolledz\\models\\courseassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Migrations\\20250915111848_newtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TallinnaRakenduslikKolledz\\Migrations\\20250915111848_newtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|c:\\users\\opilane\\source\\repos\\tallinnarakenduslikkolledz_savva\\tallinnarakenduslikkolledz\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|solutionrelative:tallinnarakenduslikkolledz\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|c:\\users\\opilane\\source\\repos\\tallinnarakenduslikkolledz_savva\\tallinnarakenduslikkolledz\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|c:\\users\\opilane\\source\\repos\\tallinnarakenduslikkolledz_savva\\tallinnarakenduslikkolledz\\data\\schoolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|solutionrelative:tallinnarakenduslikkolledz\\data\\schoolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|c:\\users\\opilane\\source\\repos\\tallinnarakenduslikkolledz_savva\\tallinnarakenduslikkolledz\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|solutionrelative:tallinnarakenduslikkolledz\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|c:\\users\\opilane\\source\\repos\\tallinnarakenduslikkolledz_savva\\tallinnarakenduslikkolledz\\models\\officeassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,6 +73,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|c:\\users\\opilane\\source\\repos\\tallinnarakenduslikkolledz_savva\\tallinnarakenduslikkolledz\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|solutionrelative:tallinnarakenduslikkolledz\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|c:\\users\\opilane\\source\\repos\\tallinnarakenduslikkolledz_savva\\tallinnarakenduslikkolledz\\migrations\\20250915111848_newtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|solutionrelative:tallinnarakenduslikkolledz\\migrations\\20250915111848_newtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -87,32 +91,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Views\\Instructors\\Index.cshtml",
+              "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Views\\Instructors\\Index.cshtml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Views\\Instructors\\Index.cshtml",
+              "RelativeToolTip": "TallinnaRakenduslikKolledz\\Views\\Instructors\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-15T11:44:49.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Models\\Instructor.cs",
+              "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Models\\Instructor.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Models\\Instructor.cs",
+              "RelativeToolTip": "TallinnaRakenduslikKolledz\\Models\\Instructor.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T10:44:42.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "InstructorIndexData.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Models\\InstructorIndexData.cs",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Models\\InstructorIndexData.cs",
               "ToolTip": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Models\\InstructorIndexData.cs",
               "RelativeToolTip": "TallinnaRakenduslikKolledz\\Models\\InstructorIndexData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T11:25:03.829Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "InstructorController.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Controllers\\InstructorController.cs",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Controllers\\InstructorController.cs",
               "ToolTip": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Controllers\\InstructorController.cs",
               "RelativeToolTip": "TallinnaRakenduslikKolledz\\Controllers\\InstructorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T11:23:21.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 18,
               "Title": "20250915111848_newtables.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Migrations\\20250915111848_newtables.cs",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Migrations\\20250915111848_newtables.cs",
@@ -120,12 +150,11 @@
               "RelativeToolTip": "TallinnaRakenduslikKolledz\\Migrations\\20250915111848_newtables.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T11:18:48.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T11:18:48.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "CourseAssignment.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Models\\CourseAssignment.cs",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Models\\CourseAssignment.cs",
@@ -133,25 +162,11 @@
               "RelativeToolTip": "TallinnaRakenduslikKolledz\\Models\\CourseAssignment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T10:57:46.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T10:57:46.988Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Instructor.cs",
-              "DocumentMoniker": "C:\\Users\\opilane\\Source\\Repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Models\\Instructor.cs",
-              "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Models\\Instructor.cs",
-              "ToolTip": "C:\\Users\\opilane\\Source\\Repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Models\\Instructor.cs",
-              "RelativeToolTip": "TallinnaRakenduslikKolledz\\Models\\Instructor.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA1wCEAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T10:44:42.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Program.cs",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Program.cs",
@@ -159,12 +174,11 @@
               "RelativeToolTip": "TallinnaRakenduslikKolledz\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T10:39:13.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T10:39:13.578Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Controllers\\StudentsController.cs",
@@ -172,12 +186,11 @@
               "RelativeToolTip": "TallinnaRakenduslikKolledz\\Controllers\\StudentsController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAGkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T08:10:15.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T08:10:15.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\appsettings.json",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\appsettings.json",
@@ -185,8 +198,7 @@
               "RelativeToolTip": "TallinnaRakenduslikKolledz\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-11T08:07:41.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T08:07:41.589Z"
             },
             {
               "$type": "Document",
@@ -198,8 +210,7 @@
               "RelativeToolTip": "TallinnaRakenduslikKolledz\\Models\\OfficeAssignment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T11:02:54.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T11:02:54.323Z"
             },
             {
               "$type": "Document",
@@ -211,8 +222,7 @@
               "RelativeToolTip": "TallinnaRakenduslikKolledz\\Views\\Students\\Details.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-11T08:41:52.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T08:41:52.97Z"
             },
             {
               "$type": "Document",
@@ -224,12 +234,11 @@
               "RelativeToolTip": "TallinnaRakenduslikKolledz\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAB/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-11T09:02:02.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T09:02:02.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "SchoolContext.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Data\\SchoolContext.cs",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Data\\SchoolContext.cs",
@@ -237,8 +246,7 @@
               "RelativeToolTip": "TallinnaRakenduslikKolledz\\Data\\SchoolContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T08:10:05.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T08:10:05.63Z"
             },
             {
               "$type": "Document",
@@ -274,8 +282,7 @@
               "RelativeToolTip": "TallinnaRakenduslikKolledz\\Views\\Students\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-11T08:02:29.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T08:02:29.662Z"
             },
             {
               "$type": "Document",
@@ -311,8 +318,7 @@
               "RelativeToolTip": "TallinnaRakenduslikKolledz\\Views\\Students\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-11T08:02:59.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T08:02:59.768Z"
             }
           ]
         }

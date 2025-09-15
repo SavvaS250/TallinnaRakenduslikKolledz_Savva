@@ -30,7 +30,7 @@ namespace TallinnaRakenduslikKolledz.Models
 
         public ICollection<CourseAssignment>? CourseAssignments { get; set; }
         public OfficeAssignment? OfficeAssignment {  get; set; }
-
+        [Display(Name = "Õpetaja Email")]
         public string? Email { get; set; }
         public int? Boyfriends { get; set; }
         public string? Phone {  get; set; }
