@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|c:\\users\\opilane\\source\\repos\\tallinnarakenduslikkolledz_savva\\tallinnarakenduslikkolledz\\views\\instructors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|solutionrelative:tallinnarakenduslikkolledz\\views\\instructors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|c:\\users\\opilane\\source\\repos\\tallinnarakenduslikkolledz_savva\\tallinnarakenduslikkolledz\\controllers\\instructorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|solutionrelative:tallinnarakenduslikkolledz\\controllers\\instructorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|c:\\users\\opilane\\source\\repos\\tallinnarakenduslikkolledz_savva\\tallinnarakenduslikkolledz\\models\\assignedcoursedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|solutionrelative:tallinnarakenduslikkolledz\\models\\assignedcoursedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|c:\\users\\opilane\\source\\repos\\tallinnarakenduslikkolledz_savva\\tallinnarakenduslikkolledz\\views\\instructors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|solutionrelative:tallinnarakenduslikkolledz\\views\\instructors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05C15668-FE99-4972-B0F3-827848959B8D}|TallinnaRakenduslikKolledz\\TallinnaRakenduslikKolledz.csproj|c:\\users\\opilane\\source\\repos\\tallinnarakenduslikkolledz_savva\\tallinnarakenduslikkolledz\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -86,11 +90,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "AssignedCourseData.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Models\\AssignedCourseData.cs",
+              "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Models\\AssignedCourseData.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Models\\AssignedCourseData.cs",
+              "RelativeToolTip": "TallinnaRakenduslikKolledz\\Models\\AssignedCourseData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T08:52:57.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Views\\Instructors\\Index.cshtml",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Views\\Instructors\\Index.cshtml",
@@ -103,20 +120,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "InstructorsController.cs",
-              "DocumentMoniker": "C:\\Users\\opilane\\Source\\Repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Controllers\\InstructorsController.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Controllers\\InstructorsController.cs",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Controllers\\InstructorsController.cs",
-              "ToolTip": "C:\\Users\\opilane\\Source\\Repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Controllers\\InstructorsController.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Controllers\\InstructorsController.cs",
               "RelativeToolTip": "TallinnaRakenduslikKolledz\\Controllers\\InstructorsController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAIwEkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T11:23:21.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "20250915111848_newtables.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Migrations\\20250915111848_newtables.cs",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Migrations\\20250915111848_newtables.cs",
@@ -128,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CourseAssignment.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Models\\CourseAssignment.cs",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Models\\CourseAssignment.cs",
@@ -140,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Views\\Shared\\_Layout.cshtml",
@@ -148,12 +165,11 @@
               "RelativeToolTip": "TallinnaRakenduslikKolledz\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-11T09:02:02.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T09:02:02.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\appsettings.json",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\appsettings.json",
@@ -161,12 +177,11 @@
               "RelativeToolTip": "TallinnaRakenduslikKolledz\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-11T08:07:41.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T08:07:41.589Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "InstructorIndexData.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Models\\InstructorIndexData.cs",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Models\\InstructorIndexData.cs",
@@ -178,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Instructor.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Models\\Instructor.cs",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Models\\Instructor.cs",
@@ -190,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Program.cs",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Program.cs",
@@ -202,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Controllers\\StudentsController.cs",
@@ -214,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "OfficeAssignment.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Models\\OfficeAssignment.cs",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Models\\OfficeAssignment.cs",
@@ -226,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Views\\Students\\Details.cshtml",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Views\\Students\\Details.cshtml",
@@ -238,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "SchoolContext.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Data\\SchoolContext.cs",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Data\\SchoolContext.cs",
@@ -250,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Views\\Students\\Index.cshtml",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Views\\Students\\Index.cshtml",
@@ -262,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Models\\Student.cs",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Models\\Student.cs",
@@ -274,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Views\\Students\\Delete.cshtml",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Views\\Students\\Delete.cshtml",
@@ -286,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Views\\Students\\Edit.cshtml",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Views\\Students\\Edit.cshtml",
@@ -298,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Controllers\\HomeController.cs",
@@ -310,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TallinnaRakenduslikKolledz_Savva\\TallinnaRakenduslikKolledz\\Views\\Students\\Create.cshtml",
               "RelativeDocumentMoniker": "TallinnaRakenduslikKolledz\\Views\\Students\\Create.cshtml",
