@@ -15,12 +15,12 @@ namespace TallinnaRakenduslikKolledz.Models
         [Required]
         [StringLength(50)]
         [Display(Name = "Eesnimi")]
-        public string Firstname { get; set; }
+        public string FirstName { get; set; }
 
         [Display(Name = "Õpetaja nimi")]
         public string Fullname 
         { 
-            get { return LastName + ", " + Firstname; }
+            get { return LastName + ", " + FirstName; }
         }
 
         [DataType(DataType.Date)]

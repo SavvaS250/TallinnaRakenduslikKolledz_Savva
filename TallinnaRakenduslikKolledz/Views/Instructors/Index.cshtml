@@ -12,8 +12,8 @@
 			<th>Perekonnanimi</th>
 			<th>Eesnimi</th>
 			<th>Töölevõtukuupäev</th>
-			<th>Kabinet</th>
-			<th>Kursused</th>
+			<th>Phone</th>
+			<th>Boyfriends</th>
 			<th>Õpetaja Email</th>
 			<th>🛠️Tööriistad</th>
 		</tr>
@@ -28,7 +28,7 @@
 			}
 			<tr class="@selectedRow">
 				<td>@Html.DisplayFor(modelItem => instructor.LastName)</td>
-				<td>@Html.DisplayFor(modelItem => instructor.Firstname)</td>
+				<td>@Html.DisplayFor(modelItem => instructor.FirstName)</td>
 				<td>@Html.DisplayFor(modelItem => instructor.HireDate)</td>
 				<td>
 					@if (instructor.OfficeAssignment != null)
