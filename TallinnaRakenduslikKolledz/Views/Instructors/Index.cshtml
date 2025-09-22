@@ -30,7 +30,9 @@
 				<td>@Html.DisplayFor(modelItem => instructor.LastName)</td>
 				<td>@Html.DisplayFor(modelItem => instructor.FirstName)</td>
 				<td>@Html.DisplayFor(modelItem => instructor.HireDate)</td>
-				<td>
+				<td>@Html.DisplayFor(modelItem => instructor.Phone)</td>
+				<td>@Html.DisplayFor(modelItem => instructor.Boyfriends)</td>
+				@* <td>
 					@if (instructor.OfficeAssignment != null)
 					{
 						@instructor.OfficeAssignment.Location
@@ -41,7 +43,7 @@
 					{
 						@course.Course.CourseId @: @course.Course.Title <br/>
 					}
-				</td>
+				</td> *@
 				<td>@Html.DisplayFor(modelItem => instructor.Email)</td>
 				<td>
 					<a asp-action="Edit" asp-route-id="@instructor.ID">Muuda</a>
