@@ -25,6 +25,7 @@ namespace TallinnaRakenduslikKolledz.Controllers
         {
             ViewData["InstructorID"] = new SelectList(_context.Instructors, "Id", "FullName");
             ViewData["StudentId"] = new SelectList(_context.Students, "Id", "LastName", "FirstName");
+            ViewData["SelectAction"] = "Create";
             return View();
         }
 
@@ -89,5 +90,37 @@ namespace TallinnaRakenduslikKolledz.Controllers
             ViewData["SelectAction"] = "Details";
             return View("Delete",department);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var department = await _context.Departments
+                .Include(d => d.Administrator)
+                .FirstOrDefaultAsync(d => d.DepartmentID == id);
+            if (department == null)
+            {
+                return NotFound();
+            }
+            ViewData["SelectAction"] = "Edit";
+            return View("Create",department);
+        }
+
+        [HttpPost, ActionName("Edit")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ConfirmEdit([Bind("Name,Budget,Startdate,RowVersion,InstructorID,AvrageGrade,StudentCount,InstructorCount")] Department department)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Departments.Update(department);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+            return View(department);
+        }
+
     }
 }
