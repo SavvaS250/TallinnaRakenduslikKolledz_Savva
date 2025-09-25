@@ -12,8 +12,8 @@ using TallinnaRakenduslikKolledz.Data;
 namespace TallinnaRakenduslikKolledz.Migrations
 {
     [DbContext(typeof(SchoolContext))]
-    [Migration("20250918100754_instructordata")]
-    partial class instructordata
+    [Migration("20250925082746_dataworks")]
+    partial class dataworks
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -36,11 +36,16 @@ namespace TallinnaRakenduslikKolledz.Migrations
                     b.Property<int>("Credits")
                         .HasColumnType("int");
 
+                    b.Property<int?>("DepartmentID")
+                        .HasColumnType("int");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("CourseId");
+
+                    b.HasIndex("DepartmentID");
 
                     b.ToTable("Course", (string)null);
                 });
@@ -66,6 +71,46 @@ namespace TallinnaRakenduslikKolledz.Migrations
                     b.HasIndex("InstructorID");
 
                     b.ToTable("CourseAssignment", (string)null);
+                });
+
+            modelBuilder.Entity("TallinnaRakenduslikKolledz.Models.Department", b =>
+                {
+                    b.Property<int>("DepartmentID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DepartmentID"));
+
+                    b.Property<int?>("AvrageGrade")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Budget")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int?>("InstructorCount")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("InstructorID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<byte?>("RowVersion")
+                        .HasColumnType("tinyint");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("StudentCount")
+                        .HasColumnType("int");
+
+                    b.HasKey("DepartmentID");
+
+                    b.HasIndex("InstructorID");
+
+                    b.ToTable("Department", (string)null);
                 });
 
             modelBuilder.Entity("TallinnaRakenduslikKolledz.Models.Enrollment", b =>
@@ -178,6 +223,13 @@ namespace TallinnaRakenduslikKolledz.Migrations
                     b.ToTable("Student", (string)null);
                 });
 
+            modelBuilder.Entity("TallinnaRakenduslikKolledz.Models.Course", b =>
+                {
+                    b.HasOne("TallinnaRakenduslikKolledz.Models.Department", null)
+                        .WithMany("Courses")
+                        .HasForeignKey("DepartmentID");
+                });
+
             modelBuilder.Entity("TallinnaRakenduslikKolledz.Models.CourseAssignment", b =>
                 {
                     b.HasOne("TallinnaRakenduslikKolledz.Models.Course", "Course")
@@ -195,6 +247,15 @@ namespace TallinnaRakenduslikKolledz.Migrations
                     b.Navigation("Course");
 
                     b.Navigation("Instructor");
+                });
+
+            modelBuilder.Entity("TallinnaRakenduslikKolledz.Models.Department", b =>
+                {
+                    b.HasOne("TallinnaRakenduslikKolledz.Models.Instructor", "Administrator")
+                        .WithMany()
+                        .HasForeignKey("InstructorID");
+
+                    b.Navigation("Administrator");
                 });
 
             modelBuilder.Entity("TallinnaRakenduslikKolledz.Models.Enrollment", b =>
@@ -230,6 +291,11 @@ namespace TallinnaRakenduslikKolledz.Migrations
             modelBuilder.Entity("TallinnaRakenduslikKolledz.Models.Course", b =>
                 {
                     b.Navigation("Enrollments");
+                });
+
+            modelBuilder.Entity("TallinnaRakenduslikKolledz.Models.Department", b =>
+                {
+                    b.Navigation("Courses");
                 });
 
             modelBuilder.Entity("TallinnaRakenduslikKolledz.Models.Instructor", b =>
