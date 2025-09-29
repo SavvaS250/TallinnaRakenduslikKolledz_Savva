@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using TallinnaRakenduslikKolledz.Data;
+using TallinnaRakenduslikKolledz.Models;
 
 namespace TallinnaRakenduslikKolledz.Controllers
 {
@@ -26,6 +27,54 @@ namespace TallinnaRakenduslikKolledz.Controllers
             return View();
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(Course course)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(course);
+                await _context.SaveChangesAsync();
+                PopulateDepartmentDropDownList(course.DepartmentID);
+            }
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null || _context.Courses == null)
+            {
+                return NotFound();
+            }
+            var courses = await _context.Courses.Include(c => c.Department)
+                .AsNoTracking()
+                .FirstOrDefaultAsync(m => m.CourseId == id);
+            if (courses == null)
+            {
+                return NotFound();
+            }
+            return View(courses);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int? id)
+        {
+            if (_context.Courses == null)
+            {
+                return NotFound();
+            }
+            var course = await _context.Courses.FindAsync(id);
+            if (course != null)
+            {
+                _context.Courses.Remove(course);
+            } 
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Index");
+        }
+
+
         private void PopulateDepartmentDropDownList(object selectDepartment = null)
         {
             var departmentsQuerty = from d in _context.Departments
@@ -33,5 +82,7 @@ namespace TallinnaRakenduslikKolledz.Controllers
                                     select d;
             ViewBag.DepartmentID = new SelectList(departmentsQuerty.AsNoTracking(), "DepartmentID", "Name", selectDepartment);
         }
+
+
     }
 }
