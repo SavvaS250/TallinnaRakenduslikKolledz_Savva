@@ -113,6 +113,7 @@ namespace TallinnaRakenduslikKolledz.Controllers
             {
                 return NotFound();
             }
+            PopulateDepartmentDropDownList(course.DepartmentID);
             ViewData["SelectAction"] = "Edit";
             return View("Create", course);
         }

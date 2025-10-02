@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TallinnaRakenduslikKolledz.Data;
 
@@ -11,9 +12,11 @@ using TallinnaRakenduslikKolledz.Data;
 namespace TallinnaRakenduslikKolledz.Migrations
 {
     [DbContext(typeof(SchoolContext))]
-    partial class SchoolContextModelSnapshot : ModelSnapshot
+    [Migration("20251002124419_dil1")]
+    partial class dil1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -68,37 +71,6 @@ namespace TallinnaRakenduslikKolledz.Migrations
                     b.HasIndex("InstructorID");
 
                     b.ToTable("CourseAssignment", (string)null);
-                });
-
-            modelBuilder.Entity("TallinnaRakenduslikKolledz.Models.Delinquent", b =>
-                {
-                    b.Property<int>("DelincuentID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DelincuentID"));
-
-                    b.Property<int>("DelinquentType")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Violation")
-                        .HasColumnType("int");
-
-                    b.HasKey("DelincuentID");
-
-                    b.ToTable("Delinquent", (string)null);
                 });
 
             modelBuilder.Entity("TallinnaRakenduslikKolledz.Models.Department", b =>
