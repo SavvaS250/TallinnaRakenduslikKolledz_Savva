@@ -111,7 +111,7 @@ namespace TallinnaRakenduslikKolledz.Controllers
 
         [HttpPost, ActionName("Edit")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> ConfirmEdit([Bind("Name,Budget,Startdate,RowVersion,InstructorID,AvrageGrade,StudentCount,InstructorCount")] Department department)
+        public async Task<IActionResult> ConfirmEdit([Bind("DepartmentID,Name,Budget,Startdate,RowVersion,InstructorID,AvrageGrade,StudentCount,InstructorCount")] Department department)
         {
             if (ModelState.IsValid)
             {
