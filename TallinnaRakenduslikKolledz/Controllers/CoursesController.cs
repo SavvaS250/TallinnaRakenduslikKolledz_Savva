@@ -33,9 +33,9 @@ namespace TallinnaRakenduslikKolledz.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(course);
+                _context.Courses.Add(course);
                 await _context.SaveChangesAsync();
-                PopulateDepartmentDropDownList(course.DepartmentID);
+               // PopulateDepartmentDropDownList(course.DepartmentID);
             }
             return RedirectToAction("Index");
         }
@@ -43,18 +43,19 @@ namespace TallinnaRakenduslikKolledz.Controllers
         [HttpGet]
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Courses == null)
+            if (id == null)
             {
                 return NotFound();
             }
-            var courses = await _context.Courses.Include(c => c.Department)
+            var course = await _context.Courses.Include(c => c.Department)
                 .AsNoTracking()
                 .FirstOrDefaultAsync(m => m.CourseId == id);
-            if (courses == null)
+            if (course == null)
             {
                 return NotFound();
             }
-            return View(courses);
+            ViewData["SelectAction"] = "DeleteDetails";
+            return View("DeleteDetails", course);
         }
 
         [HttpPost, ActionName("Delete")]
@@ -65,13 +66,35 @@ namespace TallinnaRakenduslikKolledz.Controllers
             {
                 return NotFound();
             }
+
             var course = await _context.Courses.FindAsync(id);
+
             if (course != null)
             {
                 _context.Courses.Remove(course);
-            } 
+                
+            }
             await _context.SaveChangesAsync();
             return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var course = await _context.Courses.Include(c => c.Department)
+                .AsNoTracking()
+                .FirstOrDefaultAsync(m => m.CourseId == id);
+
+            if (course == null)
+            {
+                return NotFound();
+            }
+            ViewData["SelectAction"] = "Details";
+            return View("DeleteDetails", course);
         }
 
 
