@@ -1,0 +1,60 @@
+﻿@model TallinnaRakenduslikKolledz.Models.Delinquent
+
+@{
+	ViewData["Title"] = "Loo uus Kuritegija";
+}
+
+<h1>Loo uus Kuritegija</h1>
+<hr />
+<div class="row">
+	<div class="col-md-4">
+		<form asp-action="Edit">
+			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+			<div class="form-group">
+				<label asp-for="LastName" class="control-label"></label>
+				<input asp-for="LastName" class="form-control" />
+				<span asp-validation-for="LastName" class="text-danger"></span>
+			</div>
+
+			<div class="form-group">
+				<label asp-for="FirstName" class="control-label"></label>
+				<input asp-for="FirstName" class="form-control" />
+				<span asp-validation-for="FirstName" class="text-danger"></span>
+			</div>
+
+			<div>
+				<label asp-for="Violation" class="control-label"></label>
+				<select asp-for="Violation" class="form-control" asp-items="ViewBag.Violations">
+					<option value="" class="form-control">--Vali kuritegevus--</option>
+				</select>
+				<span asp-validation-for="Violation" class="text-danger"></span>
+			</div>
+
+			<div>
+				<label asp-for="DelinquentType" class="control-label"></label>
+				<select asp-for="DelinquentType" class="form-control" asp-items="ViewBag.DelinquentTypes">
+					<option value="" class="form-control">--Vali kuritegija--</option>
+				</select>
+				<span asp-validation-for="DelinquentType" class="text-danger"></span>
+			</div>
+
+			<div class="form-group">
+				<label asp-for="Description" class="control-label"></label>
+				<input asp-for="Description" class="form-control" />
+				<span asp-validation-for="Description" class="text-danger"></span>
+			</div>
+
+			<div class="form-group">
+				<input type="submit" value="Muuda" class="btn btn-primary" />
+			</div>
+
+		</form>
+
+	</div>
+
+
+</div>
+<div>
+	<a asp-action="Index">Mine tagasi loendisse</a>
+</div>
