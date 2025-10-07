@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Net.Http.Headers;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using TallinnaRakenduslikKolledz.Data;
@@ -24,7 +25,20 @@ namespace TallinnaRakenduslikKolledz.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            PopulateDelinquentDropDownList();
+            Array enumList = Enum.GetValues(typeof(Violation));
+            List<Violation> violations = new List<Violation>();
+            foreach (Violation violation in enumList)
+            {
+                violations.Add(violation);
+            }
+            Array enumList2 = Enum.GetValues(typeof(DelinquentType));
+            List<DelinquentType> delinquentTypes = new List<DelinquentType>();
+            foreach (DelinquentType delinquent in enumList2)
+            {
+                delinquentTypes.Add(delinquent);
+            }
+            ViewBag.DelinquentTypes = new SelectList(delinquentTypes);
+            ViewBag.Violations = new SelectList(violations);
             return View();
         }
 
@@ -36,17 +50,12 @@ namespace TallinnaRakenduslikKolledz.Controllers
             {
                 _context.Delinquents.Add(delinquent);
                 await _context.SaveChangesAsync();
-                PopulateDelinquentDropDownList(delinquent.DelincuentID);
+                
             }
             return RedirectToAction("Index");
         }
 
-        private void PopulateDelinquentDropDownList(object selectDelinquent = null)
-        {
-            var delinquentsQuerty = from d in _context.Delinquents
-                                    orderby d.Violation
-                                    select d;
-            ViewBag.DepartmentID = new SelectList(delinquentsQuerty.AsNoTracking(), selectDelinquent);
-        }
+
+       
     }
 }

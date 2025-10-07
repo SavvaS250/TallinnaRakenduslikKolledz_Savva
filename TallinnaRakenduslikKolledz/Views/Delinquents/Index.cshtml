@@ -15,7 +15,8 @@
 			<th> @Html.DisplayNameFor(model => model.LastName)</th>
 			<th> @Html.DisplayNameFor(model => model.FirstName)</th>
 			<th> @Html.DisplayNameFor(model => model.Violation)</th>
-			<th> @Html.DisplayNameFor(model => model.DelinquentType)</th>
+            <th> @Html.DisplayNameFor(model => model.DelinquentType)</th>
+			<th> @Html.DisplayNameFor(model => model.Description)</th>
 			<th>Tööriistad🛠️</th>
 			
 		</tr>
@@ -35,6 +36,9 @@
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => delinquent.DelinquentType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => delinquent.Description)
                 </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@delinquent.DelincuentID">Muuda</a>
