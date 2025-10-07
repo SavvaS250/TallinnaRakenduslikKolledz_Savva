@@ -1,0 +1,45 @@
+﻿@model TallinnaRakenduslikKolledz.Models.Delinquent
+
+@{
+	ViewData["Title"] = "Detailid";
+}
+
+<h1>Detailid</h1>
+<h3>
+	Kuritegija @Model.FirstName @Model.LastName
+</h3>
+<div>
+
+	<hr />
+	<dl class="row">
+		<dt class="col-sm-2">@Html.DisplayNameFor(model => model.LastName)</dt>
+		<dd class="col-sm-10">@Html.DisplayFor(model => model.LastName)</dd>
+
+	</dl>
+	<dl class="row">
+		<dt class="col-sm-2">@Html.DisplayNameFor(model => model.FirstName)</dt>
+		<dd class="col-sm-10">@Html.DisplayFor(model => model.FirstName)</dd>
+
+	</dl>
+	<dl class="row">
+		<dt class="col-sm-2">@Html.DisplayNameFor(model => model.Violation)</dt>
+		<dd class="col-sm-10">@Html.DisplayFor(model => model.Violation)</dd>
+
+	</dl>
+	<dl class="row">
+		<dt class="col-sm-2">@Html.DisplayNameFor(model => model.DelinquentType)</dt>
+		<dd class="col-sm-10">@Html.DisplayFor(model => model.DelinquentType)</dd>
+
+	</dl>
+	<dl class="row">
+		<dt class="col-sm-2">@Html.DisplayNameFor(model => model.Description)</dt>
+		<dd class="col-sm-10">@Html.DisplayFor(model => model.Description)</dd>
+
+	</dl>
+	
+
+
+</div>
+<div>
+	<a asp-action="Index">Mine tagasi loendisse</a>
+</div>
