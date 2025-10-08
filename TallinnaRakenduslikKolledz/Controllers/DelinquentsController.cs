@@ -82,7 +82,22 @@ namespace TallinnaRakenduslikKolledz.Controllers
             {
                 return NotFound();
             }
-            
+
+            Array enumList = Enum.GetValues(typeof(Violation));
+            List<Violation> violations = new List<Violation>();
+            foreach (Violation violation in enumList)
+            {
+                violations.Add(violation);
+            }
+            Array enumList2 = Enum.GetValues(typeof(DelinquentType));
+            List<DelinquentType> delinquentTypes = new List<DelinquentType>();
+            foreach (DelinquentType delinquent1 in enumList2)
+            {
+                delinquentTypes.Add(delinquent1);
+            }
+            ViewBag.DelinquentTypes = new SelectList(delinquentTypes);
+            ViewBag.Violations = new SelectList(violations);
+
             return View(delinquent);
         }
 
